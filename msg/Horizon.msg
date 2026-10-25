@@ -5,6 +5,8 @@
 
 std_msgs/Header header
 
+builtin_interfaces/Time image_timestamp # timestamp of image that horizon was detected in
+
 float32 theta # [rad] angle of the horizon line [-pi/2, pi/2]
 float32 rho # [-] normalized distance from the image center [-1, 1]
 
