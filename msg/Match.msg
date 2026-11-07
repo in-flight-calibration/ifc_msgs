@@ -8,4 +8,5 @@ float32 y1
 float32 x2
 float32 y2
 
+bool inlier # whether the match fits the fundamental matrix
 float32 quality # match quality [0, 1]
