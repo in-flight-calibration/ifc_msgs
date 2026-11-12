@@ -7,6 +7,7 @@ uint8 DELAY_STATUS_VALID=1
 uint8 delay_status
 
 int64 delay # [ns] delay of the calibration result
+int64 delay_sd # [ns] standard deviation of delay
 
 uint8 ROTATION_STATUS_INVALID=0
 uint8 ROTATION_STATUS_VALID=1
